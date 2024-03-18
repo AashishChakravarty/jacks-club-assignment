@@ -1,0 +1,21 @@
+{
+  "name": "jacks-club-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "balance": "npm run build && node build/functions/balance.js",
+    "transact": "npm run build && node build/functions/transact.js",
+    "run:all": "npm run build && node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1579.0"
+  }
+}
